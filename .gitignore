@@ -1,0 +1,7 @@
+# The public directory where the built documentation lives
+public
+
+# I'm not sure about this directory but it's generated every time the site is
+# served or built... It's probably because of the
+# `dot-hugo-documentation-theme` theme
+resources
