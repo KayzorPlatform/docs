@@ -28,7 +28,7 @@ whiteColor = "#ffffff"
 
       [[Languages.en.menu.main]]
         weight = 2
-        name = "Faq"
+        name = "FAQ"
         url = "/faq"
 
       [[Languages.en.menu.main]]
@@ -44,26 +44,44 @@ whiteColor = "#ffffff"
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Elements"
-          URL = "/elements"
+          name = "ALL"
+          URL = "/all"
           weight = 1
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Installation"
-          URL = "/installation"
+          name = "Users"
+          URL = "/users"
           weight = 2
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Billing and Pricing"
-          URL = "/billing-pricing"
+          name = "Roles"
+          URL = "/roles"
           weight = 3
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Features"
-          URL = "/features"
+          name = "Tickets"
+          URL = "/tickets"
+          weight = 4
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Events"
+          URL = "/events"
+          weight = 4
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Finance"
+          URL = "/finance"
+          weight = 4
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Settings"
+          URL = "/settings"
           weight = 4
 
 
