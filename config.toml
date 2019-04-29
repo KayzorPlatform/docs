@@ -1,4 +1,4 @@
-baseURL = "docs.kayzor.com"
+baseURL = "docs.kayzor.com/"
 languageCode = "en-us"
 title = "Kayzor project documentation"
 theme = "dot-hugo-documentation-theme"
