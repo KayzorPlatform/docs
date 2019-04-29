@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kayzor Documentation</title>
-    <link>docs.kayzor.com/</link>
+    <link>https://kayzorplatform.github.io/docs//</link>
     <description>Recent content on Kayzor Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Kayzor copyright</copyright>
 
-	<atom:link href="docs.kayzor.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kayzorplatform.github.io/docs//index.xml" rel="self" type="application/rss+xml" />
 
 
   </channel>
