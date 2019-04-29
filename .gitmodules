@@ -1,3 +1,4 @@
 [submodule "themes/dot-hugo-documentation-theme"]
 	path = themes/dot-hugo-documentation-theme
 	url = https://github.com/dreamtigers/dot-hugo-documentation-theme
+	branch = master
