@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finance on Kayzor Documentation</title>
+    <link>https://kayzorplatform.github.io/docs/finance/</link>
+    <description>Recent content in Finance on Kayzor Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Kayzor copyright</copyright>
+    <lastBuildDate>Fri, 26 Apr 2019 06:45:43 -0400</lastBuildDate>
+
+	<atom:link href="https://kayzorplatform.github.io/docs/finance/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>List Deposits</title>
+      <link>https://kayzorplatform.github.io/docs/finance/6.1-list-deposits/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/finance/6.1-list-deposits/</guid>
+      <description>6.1 List deposits System display all deposit transactions in table. Each event in table has parametres below:
+Transaction ID (our system transaction ID) Provider&amp;rsquo;s transaction ID (transaction ID from provider) Username (username of account in which transaction appears) Date (date of transaction with format yyyy/mm/dd hh:mm) Payment (name of payment gateway) Type (deposit or withdrawal) Amount (amount of money with currency) Status (status of transaction)</description>
+    </item>
+
+    <item>
+      <title>Search Transaction</title>
+      <link>https://kayzorplatform.github.io/docs/finance/6.2-search-transaction/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/finance/6.2-search-transaction/</guid>
+      <description>6.2 Search transaction System has tools to search for user with certain parameters. First is one search field which search all parameters in table. Second appears when you press Advanced button near first search. Once user press that button below appears search fields below:
+Transaction ID (input) Provider&amp;rsquo;s transaction ID (input, autocomplete) Username (input, autocomplete) Date (date range with calendar) Type (dropbox) Payment (dropbox) Status (dropbox) Amount (range in numbers, must select currency) Currency (dropbox)</description>
+    </item>
+
+    <item>
+      <title>List Withdraws</title>
+      <link>https://kayzorplatform.github.io/docs/finance/6.3-list-withdraws/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/finance/6.3-list-withdraws/</guid>
+      <description>6.3 List withdraws System display all withdrawal transactions in table. Each event in table has parametres below:
+Transaction ID (our system transaction ID) Provider&amp;rsquo;s transaction ID (transaction ID from provider) Username (username of account in which transaction appears) Date (date of transaction with format yyyy/mm/dd hh:mm) Payment (name of payment gateway) Type (deposit or withdrawal) Amount (amount of money with currency) Status (status of transaction)</description>
+    </item>
+
+  </channel>
+</rss>

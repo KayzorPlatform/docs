@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboards on Kayzor Documentation</title>
+    <link>https://kayzorplatform.github.io/docs/dashboard/</link>
+    <description>Recent content in Dashboards on Kayzor Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Kayzor copyright</copyright>
+    <lastBuildDate>Fri, 26 Apr 2019 06:45:43 -0400</lastBuildDate>
+
+	<atom:link href="https://kayzorplatform.github.io/docs/dashboard/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>Dashboard</title>
+      <link>https://kayzorplatform.github.io/docs/dashboard/1.-dashboard/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/dashboard/1.-dashboard/</guid>
+      <description>1. Dashboard In dashboard section system displays general statistics for:
+Users - current total number of users in database Leagues - current total number of leagues in database Countries - current total number of countries in database Sports - current total number of sports in database Events - current total number of events in database</description>
+    </item>
+
+  </channel>
+</rss>

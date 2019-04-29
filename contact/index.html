@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8">
-  <title>Categories</title>
+  <title>Contact</title>
 
   <meta name="generator" content="Hugo 0.54.0" />
 
@@ -113,70 +113,25 @@
 
         <div id="content">
 
-  <!-- page title -->
-  <section class="section bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-           <h1 class="text-white mb-4">Kayzor Documentation Title</h1>
-           <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
-            <!-- Javascript -->
-            <script>
-              $(function() {
-                var projects = [
-
-                ];
-                $( "#search" ).autocomplete({
-                    minLength: 0,
-                    source: projects,
-                    focus: function( event, ui ) {
-                      $( "#search" ).val( ui.item.label );
-                        return false;
-                    },
-                    select: function( event, ui ) {
-                      $( "#search" ).val( ui.item.label );
-                      $( "#project-id" ).val( ui.item.value );
-                      return false;
-                    }
-                })
-                .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-                  return $( "<li>" )
-                  .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
-                  .appendTo( ul );
-                };
-              });
-            </script>
-        </div>
+<!-- contact -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title text-primary">Got Any Questions</h2>
+        <p>Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter.</p>
+        <form action="#">
+          <input type="text" id="name" name="name" placeholder="Name" class="form-control mb-4 shadow rounded-0">
+          <input type="email" id="mail" name="mail" placeholder="Email" class="form-control mb-4 shadow rounded-0">
+          <input type="text" id="subject" name="subject" placeholder="subject" class="form-control mb-4 shadow rounded-0">
+          <textarea name="message" id="message" placeholder="Message" class="form-control mb-4 shadow rounded-0"></textarea>
+          <button type="submit" value="send" class="btn btn-primary">Send</button>
+        </form>
       </div>
     </div>
-  </section>
-  <!-- /page title -->
-
-  <!-- details page -->
-  <section class="single section bg-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="mb-5 bg-white p-4">
-            <a href="https://kayzorplatform.github.io/docs/categories/">
-              <h4 class="mb-4">Categories</h4>
-            </a>
-            <ul class="list-styled">
-
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="p-5 bg-white">
-              <h2>Categories</h2>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /details page -->
+  </div>
+</section>
+<!-- /contact -->
 
 
         </div><!-- footer -->

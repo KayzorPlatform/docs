@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Backends</title>
+
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://kayzorplatform.github.io/docs/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://kayzorplatform.github.io/docs/plugins/themify-icons/themify-icons.css">
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://kayzorplatform.github.io/docs/plugins/highlight/hybrid.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }
+  </style>
+
+  <!-- Main Stylesheet -->
+
+  <link rel="stylesheet" href="https://kayzorplatform.github.io/docs/https://kayzorplatform.github.io/docs/css/style.min.css" integrity="" media="screen">
+
+  <!-- jquiry -->
+  <script src="https://kayzorplatform.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+
+  <!-- jquary ui -->
+  <script src="https://kayzorplatform.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+
+  <!--Favicon-->
+  <link rel="icon" href="https://kayzorplatform.github.io/docs/images/favicon.png" type="image/x-icon">
+
+</head><body>
+
+        <!-- navigation -->
+        <header class="shadow-bottom sticky-top bg-white">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="https://kayzorplatform.github.io/docs/">Kayzor Logo</a>
+  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-center" id="navigation">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://kayzorplatform.github.io/docs/">Home</a>
+      </li>
+
+
+      <li class="nav-item">
+          <a class="nav-link text-dark" href="https://kayzorplatform.github.io/docs/faq">FAQ</a>
+      </li>
+
+
+
+      <li class="nav-item">
+          <a class="nav-link text-dark" href="https://kayzorplatform.github.io/docs/contact">contact</a>
+      </li>
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          pages
+        </a>
+        <div class="dropdown-menu" >
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/all">ALL</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/users">Users</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/roles">Roles</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/tickets">Tickets</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/events">Events</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/finance">Finance</a>
+
+          <a class="dropdown-item" href="https://kayzorplatform.github.io/docs/settings">Settings</a>
+
+        </div>
+      </li>
+
+
+    </ul>
+
+    <ul class="list-inline text-center mb-0">
+
+      <li class="list-inline-item"><a class="text-dark" href="https://kayzorplatform.github.io/docs/">En</a></li>
+
+    </ul>
+  </div>
+</nav>
+            </div>
+        </header>
+        <!-- /navigation -->
+
+        <div id="content">
+
+  <!-- page title -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+           <h1 class="text-white mb-4">Kayzor Documentation Title</h1>
+           <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
+            <!-- Javascript -->
+            <script>
+              $(function() {
+                var projects = [
+
+                    {
+                      value: "Account Settings",
+                      label: "Account Settings",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.5-account-settings\/"
+                    },
+
+                    {
+                      value: "Betslip",
+                      label: "Betslip",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.13-betslip\/"
+                    },
+
+                    {
+                      value: "Content Menu",
+                      label: "Content Menu",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.5-content-menu\/"
+                    },
+
+                    {
+                      value: "Deposits",
+                      label: "Deposits",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.2-deposits\/"
+                    },
+
+                    {
+                      value: "Events Listing",
+                      label: "Events Listing",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.11-events-listing\/"
+                    },
+
+                    {
+                      value: "Forgot Password",
+                      label: "Forgot Password",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.4-forgot-password\/"
+                    },
+
+                    {
+                      value: "Inside Event",
+                      label: "Inside Event",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.12-inside-event\/"
+                    },
+
+                    {
+                      value: "Kayzor Backend Features",
+                      label: "Kayzor Backend Features",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/kayzor-backend-features\/"
+                    },
+
+                    {
+                      value: "League Listing",
+                      label: "League Listing",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.10-league-listing\/"
+                    },
+
+                    {
+                      value: "Log Out",
+                      label: "Log Out",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.2-log-out\/"
+                    },
+
+                    {
+                      value: "Login",
+                      label: "Login",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.1-login\/"
+                    },
+
+                    {
+                      value: "Main Page",
+                      label: "Main Page",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.-main-page\/"
+                    },
+
+                    {
+                      value: "Profile",
+                      label: "Profile",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.6-profile\/"
+                    },
+
+                    {
+                      value: "Register",
+                      label: "Register",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.3-register\/"
+                    },
+
+                    {
+                      value: "Search",
+                      label: "Search",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.6-search\/"
+                    },
+
+                    {
+                      value: "Settings",
+                      label: "Settings",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.8-settings\/"
+                    },
+
+                    {
+                      value: "Slider",
+                      label: "Slider",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.7-slider\/"
+                    },
+
+                    {
+                      value: "Sports Listing",
+                      label: "Sports Listing",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/main-page\/1.9-sports-listing\/"
+                    },
+
+                    {
+                      value: "Tickets",
+                      label: "Tickets",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.1-tickets\/"
+                    },
+
+                    {
+                      value: "Transaction History",
+                      label: "Transaction History",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.4-transaction-history\/"
+                    },
+
+                    {
+                      value: "User Panel",
+                      label: "User Panel",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.-user-panel\/"
+                    },
+
+                    {
+                      value: "Withdraws",
+                      label: "Withdraws",
+                      url:"https://kayzorplatform.github.io/docs\/backend\/user-panel\/2.3-withdraws\/"
+                    },
+
+                ];
+                $( "#search" ).autocomplete({
+                    minLength: 0,
+                    source: projects,
+                    focus: function( event, ui ) {
+                      $( "#search" ).val( ui.item.label );
+                        return false;
+                    },
+                    select: function( event, ui ) {
+                      $( "#search" ).val( ui.item.label );
+                      $( "#project-id" ).val( ui.item.value );
+                      return false;
+                    }
+                })
+                .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                  return $( "<li>" )
+                  .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
+                  .appendTo( ul );
+                };
+              });
+            </script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /page title -->
+
+  <!-- details page -->
+  <section class="single section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="mb-5 bg-white p-4">
+            <a href="https://kayzorplatform.github.io/docs/backend/">
+              <h4 class="mb-4">Backends</h4>
+            </a>
+            <ul class="list-styled">
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.5-account-settings/">Account Settings</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.13-betslip/">Betslip</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.5-content-menu/">Content Menu</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.2-deposits/">Deposits</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.11-events-listing/">Events Listing</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.4-forgot-password/">Forgot Password</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.12-inside-event/">Inside Event</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/kayzor-backend-features/">Kayzor Backend Features</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.10-league-listing/">League Listing</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.2-log-out/">Log Out</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.1-login/">Login</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.-main-page/">Main Page</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.6-profile/">Profile</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.3-register/">Register</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.6-search/">Search</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.8-settings/">Settings</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.7-slider/">Slider</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/main-page/1.9-sports-listing/">Sports Listing</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.1-tickets/">Tickets</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.4-transaction-history/">Transaction History</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.-user-panel/">User Panel</a></li>
+
+              <li><a href="https://kayzorplatform.github.io/docs/backend/user-panel/2.3-withdraws/">Withdraws</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="p-5 bg-white">
+              <h2>Backends</h2>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /details page -->
+
+
+        </div><!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>Kayzor copyright</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://kayzorplatform.github.io/docs/"><i class="ti-facebook"></i></a></li>
+
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://kayzorplatform.github.io/docs/"><i class="ti-twitter-alt"></i></a></li>
+
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://kayzorplatform.github.io/docs/"><i class="ti-instagram"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap JS -->
+<script src="https://kayzorplatform.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- highlight -->
+<script src="https://kayzorplatform.github.io/docs/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Main Script -->
+
+<script src="https://kayzorplatform.github.io/docs/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Kayzor Documentation</title>
+    <link>https://kayzorplatform.github.io/docs/events/</link>
+    <description>Recent content in Events on Kayzor Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Kayzor copyright</copyright>
+    <lastBuildDate>Fri, 26 Apr 2019 06:45:43 -0400</lastBuildDate>
+
+	<atom:link href="https://kayzorplatform.github.io/docs/events/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>List of pre-match events</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.1-list-of-pre-match-events/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.1-list-of-pre-match-events/</guid>
+      <description>5.1 List of pre-match events System display all prematch events in table. Each event in table has parametres below:
+ID (event ID in our system) Provider&amp;rsquo;s ID (event ID in provider&amp;rsquo;s system) Start date (start date of event in format yyyy/mm/dd hh:mm by admin time) Event name (name of event which is in foramt &amp;ldquo;team1 - team2&amp;rdquo;) Sport-League (sport name and league of event. For example: Basketball - NBA) Status (one of event statuses) Result (result from data provider.</description>
+    </item>
+
+    <item>
+      <title>List of Live Events</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.2-list-of-live-events/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.2-list-of-live-events/</guid>
+      <description>5.2 List of live events System display all live events in table. Each user in table has parametres below:
+ID (event ID in our system) Provider&amp;rsquo;s ID (event ID in provider&amp;rsquo;s system) Start date (start date of event in format yyyy/mm/dd hh:mm by admin time) Event name (name of event which is in foramt &amp;ldquo;team1 - team2&amp;rdquo;) Sport-League (sport name and league of event. For example: Basketball - NBA) Status (one of event statuses) Result (result from data provider.</description>
+    </item>
+
+    <item>
+      <title>List Market Templates</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.3-list-market-templates/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.3-list-market-templates/</guid>
+      <description>5.3 List market templates System list all markets template. We use those templates when we create markets. Each market template in table has parametres below:
+ID Name Coverage Bookmaker Format</description>
+    </item>
+
+    <item>
+      <title>Create Market Template</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.4-create-market-template/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.4-create-market-template/</guid>
+      <description>5.4 Create market template System also allows to create new market template. In order to create market template you need to fill in form:
+Main information: Name Coverage Bookmaker Format State
+Parts:
+Name Line (optional) Odds (optional) Order (optional) Status State</description>
+    </item>
+
+    <item>
+      <title>Create and Edit Event with Markets</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.5-create-and-edit-event-with-markets/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.5-create-and-edit-event-with-markets/</guid>
+      <description>5.5 Create and edit event with markets System allows to create new event and markets using market templates. Event consist of 4 sections:
+Main information: Name Coverage Sport League Start date End date Status State
+Participants: Add/remove/list participants
+Results: Add/remove/list participants and option to add result
+Markets: You can create markets by using market templates. You choose from list of existing ones. fill in data and create it. You can also edit existing markets.</description>
+    </item>
+
+    <item>
+      <title>Search Events</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.6-search-events/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.6-search-events/</guid>
+      <description>5.6 Search events System has tools to search for events with certain parameters. First is one search field which search all parameters in table. Second appears when you press Advanced button near first search. Once user press that button below appears search fields below:
+ID (input) Provider&amp;rsquo;s ID (input) Start date ( (date range from to with format yyyy/mm/dd hh:mm) Event name (input) Sport (dropbox) League (dropbox) Status (dropbox)</description>
+    </item>
+
+    <item>
+      <title>List Countries</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.7-list-countries/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.7-list-countries/</guid>
+      <description>5.7 List countries System displays all available countries. You can edit./delete their names.</description>
+    </item>
+
+    <item>
+      <title>List Leagues</title>
+      <link>https://kayzorplatform.github.io/docs/events/5.8-list-leagues/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/events/5.8-list-leagues/</guid>
+      <description>5.8 List leagues System displays all available leagues. You can edit./delete their names.</description>
+    </item>
+
+  </channel>
+</rss>

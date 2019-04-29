@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backends on Kayzor Documentation</title>
+    <link>https://kayzorplatform.github.io/docs/backend/</link>
+    <description>Recent content in Backends on Kayzor Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Kayzor copyright</copyright>
+    <lastBuildDate>Fri, 26 Apr 2019 06:45:43 -0400</lastBuildDate>
+
+	<atom:link href="https://kayzorplatform.github.io/docs/backend/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>Account Settings</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.5-account-settings/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.5-account-settings/</guid>
+      <description>2.5 Account settings User can set hsi default settings of timezone, language or odds type.</description>
+    </item>
+
+    <item>
+      <title>Betslip</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.13-betslip/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.13-betslip/</guid>
+      <description>1.13 Betslip All betting processes are made through betslip. Placing tickets are most important function in sportsbook.</description>
+    </item>
+
+    <item>
+      <title>Content Menu</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.5-content-menu/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.5-content-menu/</guid>
+      <description>1.5 Content menu System has information pages which are on web. User can access article which are or would be controlable from admin side.</description>
+    </item>
+
+    <item>
+      <title>Deposits</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.2-deposits/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.2-deposits/</guid>
+      <description>2.2 Deposits System allow user to deposit money through our payment gateways.</description>
+    </item>
+
+    <item>
+      <title>Events Listing</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.11-events-listing/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.11-events-listing/</guid>
+      <description>1.11 Events listing System lists all available event. It displays only sports which has one active event. Certain event can be found through navigation or search function.</description>
+    </item>
+
+    <item>
+      <title>Forgot Password</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.4-forgot-password/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.4-forgot-password/</guid>
+      <description>1.4 Forgot password System allows to restore his password if user forgot his account. In order to restore it user must enter his email address and restore his password</description>
+    </item>
+
+    <item>
+      <title>Inside Event</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.12-inside-event/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.12-inside-event/</guid>
+      <description>1.12 Inside event System display all available market and odds for each event. Moreover it display event information like start date, participants and time left for start.</description>
+    </item>
+
+    <item>
+      <title>Kayzor Backend Features</title>
+      <link>https://kayzorplatform.github.io/docs/backend/kayzor-backend-features/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/kayzor-backend-features/</guid>
+      <description>Kayzor backend features Welcome to Kayzor backend functionality documentation. Here you will find feature list and FAQ. All documentation is divided into sections below:</description>
+    </item>
+
+    <item>
+      <title>League Listing</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.10-league-listing/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.10-league-listing/</guid>
+      <description>1.10 League listing System lists all available leagues. It displays only sports which has one active event. Certain league can be found through navigation or search function.</description>
+    </item>
+
+    <item>
+      <title>Log Out</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.2-log-out/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.2-log-out/</guid>
+      <description>1.2 Log out Logged in user can log out any time from his account. This way user keeps his account protected for certain attacks.</description>
+    </item>
+
+    <item>
+      <title>Login</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.1-login/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.1-login/</guid>
+      <description>1.1 Login System allows to enter to user panel through login form. It consists of username and email fields. System gives permission to enter user panel if web user puts correct username and password.</description>
+    </item>
+
+    <item>
+      <title>Main Page</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.-main-page/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.-main-page/</guid>
+      <description> 1. Main page </description>
+    </item>
+
+    <item>
+      <title>Profile</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.6-profile/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.6-profile/</guid>
+      <description>2.6 Profile User can change part of his personal information.</description>
+    </item>
+
+    <item>
+      <title>Register</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.3-register/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.3-register/</guid>
+      <description>1.3 Register In order to get account user must register on the website. Registration consist of various information requests. User can use his account once user verify his account by email.</description>
+    </item>
+
+    <item>
+      <title>Search</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.6-search/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.6-search/</guid>
+      <description>1.6 Search System allows to search events, sport, leagues within one search field. With each added symbol search results are changing.</description>
+    </item>
+
+    <item>
+      <title>Settings</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.8-settings/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.8-settings/</guid>
+      <description>1.8 Settings System allows for each user to setup his timezone, odds type and language. All this can be done in settings near search function.</description>
+    </item>
+
+    <item>
+      <title>Slider</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.7-slider/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.7-slider/</guid>
+      <description>1.7 Slider System has a slider which can be userd in marketing purposes. Sportsbook can promote certain events or marketing campaigns.</description>
+    </item>
+
+    <item>
+      <title>Sports Listing</title>
+      <link>https://kayzorplatform.github.io/docs/backend/main-page/1.9-sports-listing/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/main-page/1.9-sports-listing/</guid>
+      <description>1.9 Sports listing System lists all available sports. It displays only sports which has one active event. Certain sport can be found through navigation or search function.</description>
+    </item>
+
+    <item>
+      <title>Tickets</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.1-tickets/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.1-tickets/</guid>
+      <description>2.1 Tickets System displays all user&amp;rsquo;s placed tickets. It also has filters which allow user to locate tickets in range of date of statuses.</description>
+    </item>
+
+    <item>
+      <title>Transaction History</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.4-transaction-history/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.4-transaction-history/</guid>
+      <description>2.4 Transaction history System display all user&amp;rsquo;s deposit and withdrawal transactions. Each transaction has it own ID and other parametres.</description>
+    </item>
+
+    <item>
+      <title>User Panel</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.-user-panel/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.-user-panel/</guid>
+      <description> 2. User panel </description>
+    </item>
+
+    <item>
+      <title>Withdraws</title>
+      <link>https://kayzorplatform.github.io/docs/backend/user-panel/2.3-withdraws/</link>
+      <pubDate>Fri, 26 Apr 2019 06:45:43 -0400</pubDate>
+
+      <guid>https://kayzorplatform.github.io/docs/backend/user-panel/2.3-withdraws/</guid>
+      <description>2.3 Withdraws System allow user to withdraw money through our paymetn gateways.</description>
+    </item>
+
+  </channel>
+</rss>
