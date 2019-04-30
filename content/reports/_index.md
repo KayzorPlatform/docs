@@ -5,5 +5,5 @@ draft: true
 sections_weight: 20
 icon: "ti-stats-up"
 description: "Check your reports."
-type: "pages"
+type: "topics"
 ---

@@ -5,5 +5,5 @@ draft: true
 sections_weight: 20
 icon: "ti-desktop"
 description: "Learn how to use the web interface."
-type: "pages"
+type: "topics"
 ---

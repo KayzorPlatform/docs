@@ -5,5 +5,5 @@ draft: true
 sections_weight: 20
 icon: "ti-user"
 description: "Documentation for Administrators."
-type: "pages"
+type: "topics"
 ---
