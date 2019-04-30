@@ -30,59 +30,98 @@ name = "FAQ"
 url = "/faq"
 
 [[Languages.en.menu.main]]
-weight = 20
+weight = 30
+name = "all"
+URL = "/all"
+
+[[Languages.en.menu.main]]
+weight = 70
 name = "contact"
 url = "/contact"
 
 [[Languages.en.menu.main]]
-weight = 20
+weight = 80
 name = "pages"
 url = "/pages"
 hasChildren = true
 
 [[Languages.en.menu.main]]
-parent = "pages"
-name = "ALL"
-URL = "/all"
-weight = 10
+weight = 40
+name = "admin"
+url = "/admin"
+hasChildren = true
 
 [[Languages.en.menu.main]]
-parent = "pages"
+weight = 50
+name = "web"
+url = "/web"
+hasChildren = true
+
+[[Languages.en.menu.main]]
+weight = 60
+name = "reports"
+url = "/reports"
+hasChildren = true
+
+
+# ADMIN children
+[[Languages.en.menu.main]]
+parent = "admin"
 name = "Users"
-URL = "/users"
+URL = "/admin/users"
 weight = 20
 
 [[Languages.en.menu.main]]
-parent = "pages"
+parent = "admin"
 name = "Roles"
-URL = "/roles"
+URL = "/admin/roles"
 weight = 30
 
 [[Languages.en.menu.main]]
-parent = "pages"
+parent = "admin"
 name = "Tickets"
-URL = "/tickets"
+URL = "/admin/tickets"
 weight = 40
 
 [[Languages.en.menu.main]]
-parent = "pages"
+parent = "admin"
 name = "Events"
-URL = "/events"
+URL = "/admin/events"
 weight = 50
 
 [[Languages.en.menu.main]]
-parent = "pages"
+parent = "admin"
 name = "Finance"
-URL = "/finance"
+URL = "/admin/finance"
 weight = 60
 
 [[Languages.en.menu.main]]
-parent = "pages"
+parent = "admin"
 name = "Settings"
-URL = "/settings"
+URL = "/admin/settings"
 weight = 70
 
 
+# WEB children
+[[Languages.en.menu.main]]
+parent = "web"
+name = "Main Page"
+URL = "/web/main-page"
+weight = 10
+
+[[Languages.en.menu.main]]
+parent = "web"
+name = "User Panel"
+URL = "/web/user-panel"
+weight = 20
+
+
+# REPORTS children
+# [[Languages.en.menu.main]]
+# parent = "reports"
+# name = ""
+# URL = ""
+# weight = 20
 
 
 # banner
