@@ -24,26 +24,20 @@ logo = "Kayzor Logo" # TODO
 copyright = "Kayzor copyright" # TODO
 
 # navigation
-[[Languages.en.menu.main]]
-weight = 20
-name = "FAQ"
-url = "/faq"
+# [[Languages.en.menu.main]]
+# weight = 20
+# name = "FAQ"
+# url = "/faq"
 
-[[Languages.en.menu.main]]
-weight = 30
-name = "all"
-URL = "/all"
+# [[Languages.en.menu.main]]
+# weight = 30
+# name = "all"
+# URL = "/all"
 
 [[Languages.en.menu.main]]
 weight = 70
 name = "contact"
 url = "/contact"
-
-[[Languages.en.menu.main]]
-weight = 80
-name = "pages"
-url = "/pages"
-hasChildren = true
 
 [[Languages.en.menu.main]]
 weight = 40
