@@ -34,7 +34,7 @@ copyright = "Kayzor copyright" # TODO
 # name = "all"
 # URL = "/all"
 
-[[Languages.en.menu.main]]
+[[Languages.en.menu.contact]]
 weight = 70
 name = "contact"
 url = "/contact"
@@ -59,6 +59,12 @@ hasChildren = true
 
 
 # ADMIN children
+[[Languages.en.menu.main]]
+parent = "admin"
+name = "Dashboard"
+URL = "/admin/dashboard"
+weight = 10
+
 [[Languages.en.menu.main]]
 parent = "admin"
 name = "Users"
@@ -137,20 +143,23 @@ description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula do
 btnText = "contact us"
 btnURL = "/contact"
 
-# contact
+# About
+[Languages.en.params.about]
+info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+# Contact
 [Languages.en.params.contact]
-title = "Got Any Questions"
-content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+address = "Gostauto 8, Vilnius, 01108, Lithuania"
+phone = "+37067031965"
+email = "info@kayzor.com"
 
-# footer social icon
-[[Languages.en.socialIcon]]
-icon = "ti-facebook"
-URL = "/#"
+# API sections
+[[Languages.en.menu.api]]
+weight = 10
+name = "admin"
+url = "/admin"
 
-[[Languages.en.socialIcon]]
-icon = "ti-twitter-alt"
-URL = "/#"
-
-[[Languages.en.socialIcon]]
-icon = "ti-instagram"
-URL = "/#"
+[[Languages.en.menu.api]]
+weight = 20
+name = "web"
+url = "/web"
