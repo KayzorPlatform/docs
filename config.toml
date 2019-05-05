@@ -61,57 +61,64 @@ hasChildren = true
 # ADMIN children
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Dashboard"
+name = "dashboard"
 URL = "/admin/dashboard"
 weight = 10
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Users"
+name = "users"
 URL = "/admin/users"
 weight = 20
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Roles"
+name = "roles"
 URL = "/admin/roles"
 weight = 30
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Tickets"
+name = "tickets"
 URL = "/admin/tickets"
 weight = 40
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Events"
+name = "events"
 URL = "/admin/events"
 weight = 50
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Finance"
+name = "finance"
 URL = "/admin/finance"
 weight = 60
 
 [[Languages.en.menu.main]]
 parent = "admin"
-name = "Settings"
+name = "settings"
 URL = "/admin/settings"
 weight = 70
+hasChildren = true
+
+# SETTINGS children
+[[Languages.en.menu.main]]
+parent = "settings"
+name = "currencies"
+weight = 40
 
 
 # WEB children
 [[Languages.en.menu.main]]
 parent = "web"
-name = "Main Page"
+name = "main-page"
 URL = "/web/main-page"
 weight = 10
 
 [[Languages.en.menu.main]]
 parent = "web"
-name = "User Panel"
+name = "user-panel"
 URL = "/web/user-panel"
 weight = 20
 
