@@ -20,7 +20,8 @@ languageCode = "en-us"
 title = "Kayzor Documentation"
 dateFormat = "2 January 2006"
 home = "Home"
-logo = "Kayzor Logo" # TODO
+logoHeader = "images/logo-header.png"
+logoFooter = "images/logo-footer.png"
 copyright = "Kayzor copyright" # TODO
 
 # navigation
@@ -28,11 +29,6 @@ copyright = "Kayzor copyright" # TODO
 # weight = 20
 # name = "FAQ"
 # url = "/faq"
-
-# [[Languages.en.menu.main]]
-# weight = 30
-# name = "all"
-# URL = "/all"
 
 [[Languages.en.menu.contact]]
 weight = 70
@@ -135,7 +131,7 @@ weight = 20
 [Languages.en.params.banner]
 title = "Kayzor Documentation Title"
 description = "Find advice and answers from our support team fast or get in touch"
-image = "images/banner.jpg"
+image = "images/banner.png"
 placeholder = "Have a question? Just ask here or enter terms"
 
 # Topics
