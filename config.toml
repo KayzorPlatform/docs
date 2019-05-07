@@ -118,7 +118,7 @@ weight = 20
 
 # banner
 [Languages.en.params.banner]
-title = "Kayzor Documentation Title"
+title = "Kayzor Documentation"
 description = "Find advice and answers from our support team fast or get in touch"
 image = "images/banner.png"
 placeholder = "Have a question? Just ask here or enter terms"
