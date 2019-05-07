@@ -22,7 +22,7 @@ dateFormat = "2 January 2006"
 home = "Home"
 logoHeader = "images/logo-header.png"
 logoFooter = "images/logo-footer.png"
-copyright = "Kayzor copyright" # TODO
+copyright = "© 2019 Kayzor℠, All Rights Reserved."
 
 [[Languages.en.menu.main]]
 weight = 40
