@@ -9,6 +9,9 @@ secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
 whiteColor = "#ffffff"
+blueOne = "#2695fc"
+blueTwo = "#4371c7"
+blueThree = "#0e3f91"
 
 [Languages]
 
