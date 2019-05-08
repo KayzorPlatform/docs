@@ -5,7 +5,7 @@ draft: true
 sections_weight: 20
 iconSrc: "svg/assistance.svg"
 class: "admin"
-rectangleStyle: "rectangle-admin"
+rectangleStyle: "rectangle admin"
 description: "Documentation for Administrators."
 type: "topics"
 ---

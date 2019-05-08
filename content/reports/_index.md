@@ -5,7 +5,7 @@ draft: true
 sections_weight: 20
 iconSrc: "svg/statistics.svg"
 class: "reports"
-rectangleStyle: "rectangle-reports"
+rectangleStyle: "rectangle reports"
 description: "Check your reports."
 type: "topics"
 ---
