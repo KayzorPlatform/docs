@@ -4,7 +4,7 @@ title = "Kayzor project documentation"
 theme = "dot-hugo-documentation-theme"
 
 [params]
-primaryColor = "#02007e"
+primaryColor = "#3072d3"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
