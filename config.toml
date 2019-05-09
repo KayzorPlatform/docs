@@ -23,8 +23,8 @@ languageCode = "en-us"
 title = "Kayzor Documentation"
 dateFormat = "2 January 2006"
 home = "Home"
-logoHeader = "images/logo-header.png"
-logoFooter = "images/logo-footer.png"
+logoHeader = "svg/logo-header.svg"
+logoFooter = "svg/logo-footer.svg"
 copyright = "© 2019 Kayzor℠, All Rights Reserved."
 
 [[Languages.en.menu.main]]
