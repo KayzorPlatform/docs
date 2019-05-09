@@ -139,6 +139,11 @@ name = "contact"
 url = "/contact"
 btnText = "contact us"
 
+[Languages.en.params.contact]
+title = "CONTACT US"
+content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+
 # Info
 [Languages.en.params.info]
 about = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
