@@ -4,12 +4,12 @@ date: 2019-04-26T06:45:43-04:00
 draft: true
 menu:
   main:
-    parent: "dashboard"
+    parent: "reports"
     weight: 20
 weight: 20
 ---
 
-### 1.1 Finance Dashboard
+### 1.2 Finance Dashboard
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet
  accumsan velit. Vestibulum nec accumsan lectus, non volutpat erat. Etiam a

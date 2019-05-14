@@ -1,15 +1,15 @@
 ---
-title: "Betting Dashboard"
+title: "Users Dashboard"
 date: 2019-04-26T06:45:43-04:00
 draft: true
 menu:
   main:
-    parent: "dashboard"
-    weight: 10
-weight: 10
+    parent: "reports"
+    weight: 30
+weight: 30
 ---
 
-### 1.1 Betting Dashboard
+### 1.3 Users Dashboard
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet
  accumsan velit. Vestibulum nec accumsan lectus, non volutpat erat. Etiam a
