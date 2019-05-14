@@ -142,6 +142,14 @@ btnText = "contact us"
 [Languages.en.params.contact]
 title = "CONTACT US"
 content = "Use our message form to send us any questions, comments or suggestions."
+formspree_account = "info@kayzor.com"
+categories = [
+    "General inquiry",
+    "Web app", "Admin app",
+    "Reports app",
+    "Sales",
+    "Other"
+]
 
 
 # Info
