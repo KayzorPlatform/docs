@@ -4,7 +4,7 @@
 
 Clone this repo **recursively**:
 ```sh
-git clone --recursive https://github.com/KayzorPlatform/docshttps://github.com/KayzorPlatform/docs
+git clone --recursive https://github.com/KayzorPlatform/docs
 ```
 Change the working directory to the repo:
 ```sh
@@ -12,7 +12,7 @@ cd docs
 ```
 Run `hugo` to build the project:
 ```sh
-hugo
+hugo -D --baseUrl=http://docs.kayzor.com/
 ```
 
 The built project it's in the `public/` directory.
