@@ -6,7 +6,6 @@ menu:
   main:
     parent: "reports"
     weight: 20
-weight: 20
 ---
 
 ### 1.2 Finance Dashboard

@@ -6,7 +6,6 @@ menu:
   main:
     parent: "reports"
     weight: 10
-weight: 10
 ---
 
 ### 1.1 Betting Dashboard

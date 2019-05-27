@@ -107,7 +107,9 @@ A full view of how menus are organized:
     │   │   ├───main-page
     │   │   └───user-panel
     │   └───reports
-    │       └───
+    │       ├───betting-dashboard
+    │       ├───finance-dashboard
+    │       └───user-dashboard
     ├───api
     │   ├───admin
     │   └───web
@@ -139,7 +141,6 @@ menu:
   main:
     parent: "main-page"
     weight: 40
-weight: 40
 ---
 
 ### 1.4 Forgot password
@@ -154,12 +155,11 @@ documentation, but in this example we can see:
 * `title`: The title of the current document/page.
 * `date`: The date of creation of the document.
 * `draft`: A boolean indicating the document is not ready yet.
-* `weight`: A variable that helps compare (and order) said document against
-  others.
 * `menu`: This is how we organize the hierarchy of the documents, in this case,
   we're saying that from the `menu` we go to `main`, and from `main`, we
   indicate that **this** document (`1.4\ Forgot\ Password.md`) is a child of
   `main-page`.
+* `weight`: A variable that helps compare (and order) said item against others.
 
 Where is `main-page` defined?
 
@@ -196,7 +196,7 @@ hugo -D --baseUrl=http://docs.kayzor.com/
 ```
 And your changes should be in the `build/` directory.
 
-### Adding documentation
+## Adding documentation
 Adding new documentation is very similar to expanding it.
 First, we create a new document, in this case, let's add an example dashboard to
 "Reports":
@@ -219,7 +219,6 @@ menu:
   main:
     parent: "reports"
     weight: 40
-weight: 40
 ---
 
 ### 1.4 Example Dashboard

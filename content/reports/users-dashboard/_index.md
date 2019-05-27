@@ -6,7 +6,6 @@ menu:
   main:
     parent: "reports"
     weight: 30
-weight: 30
 ---
 
 ### 1.3 Users Dashboard
