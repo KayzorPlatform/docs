@@ -122,9 +122,9 @@ A full view of how menus are organized:
 
 ## Expanding documentation
 Once we know that, we can:
-* [Expand a Document]
-* [Add a Document]
-* [Add a Category]
+* [Expand a Document](expand-a-document)
+* [Add a Document](add-a-document)
+* [Add a Category](add-a-category)
 
 ### Add a Category
 For example, assume we have the current structure.
