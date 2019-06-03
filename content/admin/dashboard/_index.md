@@ -4,7 +4,7 @@ date: 2019-04-26T06:45:43-04:00
 draft: true
 ---
 
-## 1. Dashboard
+## Dashboard
 
 In dashboard section system displays general statistics for:
 
